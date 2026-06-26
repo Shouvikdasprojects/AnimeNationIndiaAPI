@@ -1865,7 +1865,7 @@
         const link = resp.headers.get('Link');
         let count = 0;
         if (link) { const m = link.match(/[?&]page=(\d+)>; rel="last"/); if (m) count = parseInt(m[1], 10); }
-        stats.contributors = count > 0 ? count.toLocaleString() : '45+';
+        stats.contributors = count > 0 ? count.toLocaleString() : '0';
       } catch (_) {}
 
       // Apply fresh stats and cache
