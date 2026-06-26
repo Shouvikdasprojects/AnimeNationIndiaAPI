@@ -1,0 +1,44 @@
+{
+  "ann": {
+    "fetchCount": 5,
+    "lastFetch": "2026-06-26T08:47:20.321Z",
+    "lastError": null,
+    "articleCount": 15
+  },
+  "animecorner": {
+    "fetchCount": 5,
+    "lastFetch": "2026-06-26T08:47:22.699Z",
+    "lastError": null,
+    "articleCount": 12
+  },
+  "myanimelist": {
+    "fetchCount": 5,
+    "lastFetch": "2026-06-26T08:47:21.664Z",
+    "lastError": null,
+    "articleCount": 15
+  },
+  "otakuusa": {
+    "fetchCount": 5,
+    "lastFetch": "2026-06-26T08:47:22.855Z",
+    "lastError": null,
+    "articleCount": 12
+  },
+  "crunchyroll": {
+    "fetchCount": 5,
+    "lastFetch": "2026-06-26T08:47:21.045Z",
+    "lastError": null,
+    "articleCount": 15
+  },
+  "animeherald": {
+    "fetchCount": 5,
+    "lastFetch": "2026-06-26T08:47:24.633Z",
+    "lastError": null,
+    "articleCount": 10
+  },
+  "comicbook": {
+    "fetchCount": 5,
+    "lastFetch": "2026-06-26T08:47:26.148Z",
+    "lastError": null,
+    "articleCount": 10
+  }
+}

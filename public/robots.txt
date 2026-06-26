@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Allow: /api/openapi
+Disallow: /api/
+
+Sitemap: /sitemap.xml
+
+# AnimeNationIndiaNewsAPI — Real-time Anime News Aggregation API
