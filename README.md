@@ -3,7 +3,7 @@
 
 <div align="center">
   
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=AnimeNationIndiaNewsAPI&fontAlignY=30&fontSize=90&desc=𝖱𝖾𝖺𝗅-𝖳𝗂𝗆𝖾%20𝖠𝗇𝗂𝗆𝖾%20𝖭𝖾𝗐𝗌%20𝖠𝗀𝗀𝗋𝖾𝗀𝖺𝗍𝗂𝗈𝗇%20𝖠𝖯𝖨&descSize=30" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=AniIndiaNewsAPI&fontAlignY=30&fontSize=90&desc=𝖱𝖾𝖺𝗅-𝖳𝗂𝗆𝖾%20𝖠𝗇𝗂𝗆𝖾%20𝖭𝖾𝗐𝗌%20𝖠𝗀𝗀𝗋𝖾𝗀𝖺𝗍𝗂𝗈𝗇%20𝖠𝖯𝖨&descSize=30" />
 
 </div>
 
