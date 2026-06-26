@@ -1,7 +1,7 @@
 /*
  * ======= • ======= • ======= • ======= • =======• =======
  * AniNewsAPI — fetchOtakuNews.js
- * Repository: https://github.com/Shineii86/AniNewsAPI
+ * Repository: https://github.com/Shouvikdasprojects/AnimeNationIndiaAPI
  *
  * @description
  *   News fetcher for Otaku USA Magazine. Uses Google News

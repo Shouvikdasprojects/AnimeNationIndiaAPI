@@ -1,7 +1,7 @@
 /*
  * ======= • ======= • ======= • ======= • =======• =======
  * AniNewsAPI — api/cache/clear.js
- * Repository: https://github.com/Shineii86/AniNewsAPI
+ * Repository: https://github.com/Shouvikdasprojects/AnimeNationIndiaAPI
  *
  * @description
  *   Cache clear endpoint. Supports clearing a specific cache

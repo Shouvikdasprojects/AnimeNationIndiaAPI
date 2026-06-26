@@ -1,7 +1,7 @@
 /*
  * ======= • ======= • ======= • ======= • =======• =======
  * AniNewsAPI — fetchComicBook.js
- * Repository: https://github.com/Shineii86/AniNewsAPI
+ * Repository: https://github.com/Shouvikdasprojects/AnimeNationIndiaAPI
  *
  * @description
  *   News fetcher for Comic Book (comicbook.com). Uses web

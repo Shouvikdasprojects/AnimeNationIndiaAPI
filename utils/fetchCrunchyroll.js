@@ -1,7 +1,7 @@
 /*
  * ======= • ======= • ======= • ======= • =======• =======
  * AniNewsAPI — fetchCrunchyroll.js
- * Repository: https://github.com/Shineii86/AniNewsAPI
+ * Repository: https://github.com/Shouvikdasprojects/AnimeNationIndiaAPI
  *
  * @description
  *   News fetcher for Crunchyroll. Uses Google News RSS as

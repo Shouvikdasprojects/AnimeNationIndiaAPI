@@ -24,12 +24,12 @@ npm run dev
 ## 📋 Ways to Contribute
 
 ### 🐛 Report Bugs
-- Use [GitHub Issues](https://github.com/Shineii86/AniNewsAPI/issues/new?template=bug_report.md)
+- Use [GitHub Issues](https://github.com/Shouvikdasprojects/AnimeNationIndiaAPI/issues/new?template=bug_report.md)
 - Include steps to reproduce, expected vs actual behavior
 - Mention your Node.js version and OS
 
 ### 💡 Suggest Features
-- Open a [Feature Request](https://github.com/Shineii86/AniNewsAPI/issues/new?template=feature_request.md)
+- Open a [Feature Request](https://github.com/Shouvikdasprojects/AnimeNationIndiaAPI/issues/new?template=feature_request.md)
 - Explain the use case and expected behavior
 
 ### 🔧 Submit Code
@@ -192,7 +192,7 @@ AniNewsAPI/
 
 ## ❓ Questions?
 
-- [GitHub Discussions](https://github.com/Shineii86/AniNewsAPI/discussions)
+- [GitHub Discussions](https://github.com/Shouvikdasprojects/AnimeNationIndiaAPI/discussions)
 - [Telegram](https://telegram.me/shineii86)
 
 ---

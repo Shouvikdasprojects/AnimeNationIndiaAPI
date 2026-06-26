@@ -1,7 +1,7 @@
 /*
  * ======= • ======= • ======= • ======= • =======• =======
  * AniNewsAPI — api/rss.js
- * Repository: https://github.com/Shineii86/AniNewsAPI
+ * Repository: https://github.com/Shouvikdasprojects/AnimeNationIndiaAPI
  *
  * @description
  *   RSS 2.0 feed generator. Produces standards-compliant XML

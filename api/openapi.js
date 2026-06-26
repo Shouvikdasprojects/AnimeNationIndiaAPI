@@ -1,7 +1,7 @@
 /*
  * ======= • ======= • ======= • ======= • =======• =======
  * AniNewsAPI — api/openapi.js
- * Repository: https://github.com/Shineii86/AniNewsAPI
+ * Repository: https://github.com/Shouvikdasprojects/AnimeNationIndiaAPI
  *
  * @description
  *   OpenAPI 3.0.3 specification endpoint. Returns a
@@ -41,7 +41,7 @@ module.exports = (req, res) => {
       title: 'AniNewsAPI',
       version: '4.1.6',
       description: 'Real-time anime news aggregation API with smart caching, search, RSS feeds, and full-article extraction from 7 sources.',
-      contact: { name: 'Shinei Nouzen', url: 'https://github.com/Shineii86', email: 'ikx7a@hotmail.com' },
+      contact: { name: 'Shinei Nouzen', url: 'https://github.com/Shineii86', email: 'shouvikdaswork@gmail.com' },
       license: { name: 'MIT', url: 'https://opensource.org/licenses/MIT' }
     },
     servers: [

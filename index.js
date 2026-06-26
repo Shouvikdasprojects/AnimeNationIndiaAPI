@@ -1,7 +1,7 @@
 /*
  * ======= • ======= • ======= • ======= • =======• =======
  * AniNewsAPI — index.js
- * Repository: https://github.com/Shineii86/AniNewsAPI
+ * Repository: https://github.com/Shouvikdasprojects/AnimeNationIndiaAPI
  *
  * @description
  *   Vercel serverless entry point. Serves the landing page
@@ -83,7 +83,7 @@ module.exports = (req, res) => {
       name: APP_NAME,
       version: APP_VERSION,
       description: APP_DESCRIPTION,
-      documentation: 'https://github.com/Shouvik/animenationindianewsapi',
+      documentation: 'https://github.com/Shouvikdasprojects/AnimeNationIndiaAPI',
       openapi: '/api/openapi',
       endpoints: {
         'GET /api/news': 'Latest anime news with pagination, sorting, source filtering',

@@ -1,19 +1,19 @@
 > [!NOTE]
-> The Old Deployment URL `https://aninewsapi.vercel.app` Is No Longer Accessible. Use The Current URL: **https://aninews.vercel.app**
+> The current deployment URL is: **https://aniindianewsapi.vercel.app**
 
 <div align="center">
   
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=𝗔𝗻𝗶𝗡𝗲𝘄𝘀𝗔𝗣𝗜&fontAlignY=30&fontSize=90&desc=𝖱𝖾𝖺𝗅-𝖳𝗂𝗆𝖾%20𝖠𝗇𝗂𝗆𝖾%20𝖭𝖾𝗐𝗌%20𝖠𝗀𝗀𝗋𝖾𝗀𝖺𝗍𝗂𝗈𝗇%20𝖠𝖯𝖨&descSize=30" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=AnimeNationIndiaNewsAPI&fontAlignY=30&fontSize=90&desc=𝖱𝖾𝖺𝗅-𝖳𝗂𝗆𝖾%20𝖠𝗇𝗂𝗆𝖾%20𝖭𝖾𝗐𝗌%20𝖠𝗀𝗀𝗋𝖾𝗀𝖺𝗍𝗂𝗈𝗇%20𝖠𝖯𝖨&descSize=30" />
 
 </div>
 
 <p align="center">
-  <a href="https://github.com/Shineii86/AniNewsAPI/stargazers"><img src="https://img.shields.io/github/stars/Shineii86/AniNewsAPI?style=for-the-badge&logo=github&color=f43f8e&logoColor=white" alt="Stars"/></a>
-  <a href="https://github.com/Shineii86/AniNewsAPI/network/members"><img src="https://img.shields.io/github/forks/Shineii86/AniNewsAPI?style=for-the-badge&logo=github&color=a855f7&logoColor=white" alt="Forks"/></a>
-  <a href="https://github.com/Shineii86/AniNewsAPI/issues"><img src="https://img.shields.io/github/issues/Shineii86/AniNewsAPI?style=for-the-badge&logo=github&color=7c3aed&logoColor=white" alt="Issues"/></a>
-  <a href="https://github.com/Shineii86/AniNewsAPI/pulls"><img src="https://img.shields.io/github/issues-pr/Shineii86/AniNewsAPI?style=for-the-badge&logo=github&color=ec4899&logoColor=white" alt="Pull Requests"/></a>
-  <a href="https://github.com/Shineii86/AniNewsAPI/commits"><img src="https://img.shields.io/github/last-commit/Shineii86/AniNewsAPI?style=for-the-badge&logo=github&color=6366f1&logoColor=white" alt="Last Commit"/></a>
-  <a href="https://github.com/Shineii86/AniNewsAPI/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Shineii86/AniNewsAPI?style=for-the-badge&logo=mit&color=22c55e&logoColor=white" alt="License"/></a>
+  <a href="https://github.com/Shouvikdasprojects/AnimeNationIndiaAPI/stargazers"><img src="https://img.shields.io/github/stars/Shouvikdasprojects/AnimeNationIndiaAPI?style=for-the-badge&logo=github&color=f43f8e&logoColor=white" alt="Stars"/></a>
+  <a href="https://github.com/Shouvikdasprojects/AnimeNationIndiaAPI/network/members"><img src="https://img.shields.io/github/forks/Shouvikdasprojects/AnimeNationIndiaAPI?style=for-the-badge&logo=github&color=a855f7&logoColor=white" alt="Forks"/></a>
+  <a href="https://github.com/Shouvikdasprojects/AnimeNationIndiaAPI/issues"><img src="https://img.shields.io/github/issues/Shouvikdasprojects/AnimeNationIndiaAPI?style=for-the-badge&logo=github&color=7c3aed&logoColor=white" alt="Issues"/></a>
+  <a href="https://github.com/Shouvikdasprojects/AnimeNationIndiaAPI/pulls"><img src="https://img.shields.io/github/issues-pr/Shouvikdasprojects/AnimeNationIndiaAPI?style=for-the-badge&logo=github&color=ec4899&logoColor=white" alt="Pull Requests"/></a>
+  <a href="https://github.com/Shouvikdasprojects/AnimeNationIndiaAPI/commits"><img src="https://img.shields.io/github/last-commit/Shouvikdasprojects/AnimeNationIndiaAPI?style=for-the-badge&logo=github&color=6366f1&logoColor=white" alt="Last Commit"/></a>
+  <a href="https://github.com/Shouvikdasprojects/AnimeNationIndiaAPI/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Shouvikdasprojects/AnimeNationIndiaAPI?style=for-the-badge&logo=mit&color=22c55e&logoColor=white" alt="License"/></a>
 </p>
 
 <p align="center">
@@ -72,11 +72,11 @@
 
 ## 🌸 Overview
 
-**AniNewsAPI** is a serverless anime news aggregation API that scrapes, deduplicates, and serves articles from **7 major anime news sources** — all through a clean REST API with zero database setup.
+**AnimeNationIndiaNewsAPI** is a serverless anime news aggregation API that scrapes, deduplicates, and serves articles from **7 major anime news sources** — all through a clean REST API with zero database setup.
 
 > 💡 No database, no auth for reads, no complex setup. Just deploy to Vercel and you have a production API.
 
-### Why AniNewsAPI?
+### Why AnimeNationIndiaNewsAPI?
 
 - 📰 **7 Sources** — ANN, MAL, Crunchyroll, Anime Corner, Otaku USA, Anime Herald, Comic Book
 - ⚡ **Smart Caching** — Two-tier cache (memory + disk) with 10-minute TTL, survives serverless cold starts
@@ -298,7 +298,7 @@ flowchart TD
 ## 📁 Project Structure
 
 ```
-AniNewsAPI/
+AnimeNationIndiaNewsAPI/
 ├── 📂 api/                            # 🌐 Vercel serverless functions
 │   ├── 📂 cache/
 │   │   └── 📄 clear.js                #    🔐 Cache management (API key protected)
@@ -364,8 +364,8 @@ AniNewsAPI/
 
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/Shineii86/AniNewsAPI.git
-cd AniNewsAPI
+git clone https://github.com/Shouvikdasprojects/AnimeNationIndiaAPI.git
+cd AnimeNationIndiaNewsAPI
 
 # 2️⃣ Install dependencies
 npm install
@@ -443,16 +443,16 @@ Latest anime news from all or specific sources.
 
 ```bash
 # Basic usage
-curl "https://aninews.vercel.app/api/news?limit=10"
+curl "https://aniindianewsapi.vercel.app/api/news?limit=10"
 
 # Filter by source with pagination
-curl "https://aninews.vercel.app/api/news?source=crunchyroll&limit=10&offset=10"
+curl "https://aniindianewsapi.vercel.app/api/news?source=crunchyroll&limit=10&offset=10"
 
 # Date range filtering
-curl "https://aninews.vercel.app/api/news?from=2026-05-20&to=2026-05-27"
+curl "https://aniindianewsapi.vercel.app/api/news?from=2026-05-20&to=2026-05-27"
 
 # Cursor-based pagination (use nextCursor from previous response)
-curl "https://aninews.vercel.app/api/news?limit=20&cursor=eyJvZmZzZXQiOjIwfQ"
+curl "https://aniindianewsapi.vercel.app/api/news?limit=20&cursor=eyJvZmZzZXQiOjIwfQ"
 ```
 
 <details>
@@ -512,9 +512,9 @@ Full-text search with relevance scoring. Title matches rank higher than excerpt 
 - Tiebreaker: newest date first
 
 ```bash
-curl "https://aninews.vercel.app/api/search?q=demon+slayer"
-curl "https://aninews.vercel.app/api/search?q=manga&source=ann&limit=5"
-curl "https://aninews.vercel.app/api/search?q=crunchyroll&from=2026-05-20&to=2026-05-27"
+curl "https://aniindianewsapi.vercel.app/api/search?q=demon+slayer"
+curl "https://aniindianewsapi.vercel.app/api/search?q=manga&source=ann&limit=5"
+curl "https://aniindianewsapi.vercel.app/api/search?q=crunchyroll&from=2026-05-20&to=2026-05-27"
 ```
 
 ---
@@ -525,13 +525,13 @@ List available tags with article counts, or filter articles by tag.
 
 ```bash
 # List all tags with counts
-curl "https://aninews.vercel.app/api/news/tags"
+curl "https://aniindianewsapi.vercel.app/api/news/tags"
 
 # Filter articles by tag
-curl "https://aninews.vercel.app/api/news/tags?tag=official"
+curl "https://aniindianewsapi.vercel.app/api/news/tags?tag=official"
 
 # Filter by tag and source
-curl "https://aninews.vercel.app/api/news/tags?tag=news&source=ann"
+curl "https://aniindianewsapi.vercel.app/api/news/tags?tag=news&source=ann"
 ```
 
 <details>
@@ -561,7 +561,7 @@ curl "https://aninews.vercel.app/api/news/tags?tag=news&source=ann"
 Full article content extraction from the original URL.
 
 ```bash
-curl "https://aninews.vercel.app/api/news/ann-demon-slayer-season-4-announced"
+curl "https://aniindianewsapi.vercel.app/api/news/ann-demon-slayer-season-4-announced"
 ```
 
 <details>
@@ -598,8 +598,8 @@ Standards-compliant RSS 2.0 XML feed. Works with any feed reader.
 | `limit` | `20` | Max items |
 
 ```bash
-curl "https://aninews.vercel.app/api/rss"
-curl "https://aninews.vercel.app/api/rss?source=crunchyroll&limit=10"
+curl "https://aniindianewsapi.vercel.app/api/rss"
+curl "https://aniindianewsapi.vercel.app/api/rss?source=crunchyroll&limit=10"
 ```
 
 ---
@@ -609,7 +609,7 @@ curl "https://aninews.vercel.app/api/rss?source=crunchyroll&limit=10"
 Per-source health monitoring. Returns fetch status, article counts, and latency.
 
 ```bash
-curl "https://aninews.vercel.app/api/sources"
+curl "https://aniindianewsapi.vercel.app/api/sources"
 ```
 
 <details>
@@ -655,8 +655,8 @@ curl "https://aninews.vercel.app/api/sources"
 Health check and cache statistics.
 
 ```bash
-curl "https://aninews.vercel.app/api/health"
-curl "https://aninews.vercel.app/api/stats"
+curl "https://aniindianewsapi.vercel.app/api/health"
+curl "https://aniindianewsapi.vercel.app/api/stats"
 ```
 
 ---
@@ -667,11 +667,11 @@ Manual cache flush. Requires API key when `CACHE_CLEAR_KEY` is set.
 
 ```bash
 # Clear all caches
-curl -X POST "https://aninews.vercel.app/api/cache/clear" \
+curl -X POST "https://aniindianewsapi.vercel.app/api/cache/clear" \
   -H "X-Api-Key: your-secret-key"
 
 # Clear specific cache key
-curl -X POST "https://aninews.vercel.app/api/cache/clear" \
+curl -X POST "https://aniindianewsapi.vercel.app/api/cache/clear" \
   -H "Content-Type: application/json" \
   -H "X-Api-Key: your-secret-key" \
   -d '{"key": "news_all"}'
@@ -684,7 +684,7 @@ curl -X POST "https://aninews.vercel.app/api/cache/clear" \
 Server-Sent Events stream. Sends an initial burst of status data then closes.
 
 ```bash
-curl -N "https://aninews.vercel.app/api/stream"
+curl -N "https://aniindianewsapi.vercel.app/api/stream"
 ```
 
 > ⚠️ Vercel Hobby functions timeout at 10s. This endpoint sends a single burst and closes. For real-time updates, poll `/api/news?refresh=true`.
@@ -696,7 +696,7 @@ curl -N "https://aninews.vercel.app/api/stream"
 OpenAPI 3.0.3 specification in JSON format. Use with Swagger UI, Postman, or any OpenAPI-compatible tool.
 
 ```bash
-curl "https://aninews.vercel.app/api/openapi"
+curl "https://aniindianewsapi.vercel.app/api/openapi"
 ```
 
 ---
@@ -736,7 +736,7 @@ curl "https://aninews.vercel.app/api/openapi"
 
 ### ▲ Vercel (Recommended)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Shineii86/AniNewsAPI)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Shouvikdasprojects/AnimeNationIndiaAPI)
 
 1. Click the button above (or import manually on vercel.com)
 2. Vercel auto-detects the project — **no config needed**
@@ -751,8 +751,8 @@ npx vercel --prod
 
 ```bash
 # Clone and install
-git clone https://github.com/Shineii86/AniNewsAPI.git
-cd AniNewsAPI && npm install
+git clone https://github.com/Shouvikdasprojects/AnimeNationIndiaAPI.git
+cd AnimeNationIndiaNewsAPI && npm install
 
 # Start production server
 npm start
@@ -872,13 +872,13 @@ The cache TTL is 10 minutes by default. After that, the next request triggers a 
 <details>
 <summary><b>📡 Can I use this in my frontend app?</b></summary>
 <br/>
-Yes! CORS is enabled for all origins (<code>*</code>). Just make fetch requests to the API endpoints. No API key needed for read operations. Example: <code>fetch('https://aninews.vercel.app/api/news?limit=10')</code>
+Yes! CORS is enabled for all origins (<code>*</code>). Just make fetch requests to the API endpoints. No API key needed for read operations. Example: <code>fetch('https://aniindianewsapi.vercel.app/api/news?limit=10')</code>
 </details>
 
 <details>
 <summary><b>🗞️ How do I subscribe to the RSS feed?</b></summary>
 <br/>
-Add <code>https://aninews.vercel.app/api/rss</code> to any feed reader (Feedly, Inoreader, NetNewsWire, etc.). You can filter by source: <code>/api/rss?source=crunchyroll</code>
+Add <code>https://aniindianewsapi.vercel.app/api/rss</code> to any feed reader (Feedly, Inoreader, NetNewsWire, etc.). You can filter by source: <code>/api/rss?source=crunchyroll</code>
 </details>
 
 <details>
@@ -952,7 +952,7 @@ Yes! Use <code>npm start</code> to run the Express server on any VPS, Docker con
 ### 🐛 Report Bugs
 Found something broken?
 
-[Open an Issue](https://github.com/Shineii86/AniNewsAPI/issues)
+[Open an Issue](https://github.com/Shouvikdasprojects/AnimeNationIndiaAPI/issues)
 
 </td>
 <td width="25%" align="center">
@@ -960,7 +960,7 @@ Found something broken?
 ### 💡 Suggest Features
 Have an idea for the notebook?
 
-[Start a Discussion](https://github.com/Shineii86/AniNewsAPI/issues)
+[Start a Discussion](https://github.com/Shouvikdasprojects/AnimeNationIndiaAPI/issues)
 
 </td>
 <td width="25%" align="center">
@@ -968,7 +968,7 @@ Have an idea for the notebook?
 ### 🔀 Submit PRs
 Ready to contribute code?
 
-[Fork & Submit](https://github.com/Shineii86/AniNewsAPI/fork)
+[Fork & Submit](https://github.com/Shouvikdasprojects/AnimeNationIndiaAPI/fork)
 
 </td>
 </tr>
@@ -981,8 +981,8 @@ Ready to contribute code?
 # Click the "Fork" button on GitHub
 
 # 2️⃣ Clone your fork
-git clone https://github.com/YOUR_USERNAME/AniNewsAPI.git
-cd AniNewsAPI
+git clone https://github.com/YOUR_USERNAME/AnimeNationIndiaNewsAPI.git
+cd AnimeNationIndiaNewsAPI
 
 # 3️⃣ Create a feature branch
 git checkout -b feature/amazing-feature
@@ -1016,7 +1016,7 @@ git push origin feature/amazing-feature
 
 ### 🐛 Reporting Bugs
 
-1. Check existing [issues](https://github.com/Shineii86/AniNewsAPI/issues) first
+1. Check existing [issues](https://github.com/Shouvikdasprojects/AnimeNationIndiaAPI/issues) first
 2. Create a new issue with:
    - Clear title and description
    - Steps to reproduce
@@ -1026,7 +1026,7 @@ git push origin feature/amazing-feature
 ### 💡 Suggesting Features
 
 1. Check the [Roadmap](#-roadmap) for planned features
-2. Open a [feature request](https://github.com/Shineii86/AniNewsAPI/issues/new) with:
+2. Open a [feature request](https://github.com/Shouvikdasprojects/AnimeNationIndiaAPI/issues/new) with:
    - Clear description of the feature
    - Use case / motivation
    - Example API usage if applicable
@@ -1079,32 +1079,22 @@ Free to use, modify, and distribute — see the [LICENSE](LICENSE) file for deta
 
 ## 👤 Author
 
-<div align="center">
-
-  <a href="https://github.com/Shineii86/AniNewsAPI">
-  <img src="https://github.com/AniWaifuBot/Waifus/blob/main/Source/Banner.png" alt="Banner" width="100%" />
-  </a>
-  
-</div>
-  
 <p align="center">
-  <b style="font-size: 5.5em;">Shinei Nouzen</b>
+  <b style="font-size: 3em;">Shouvik</b>
   <br/>
   <sub>Full-Stack Developer & Anime Enthusiast</sub>
   <br/><br/>
-  <a href="https://github.com/Shineii86"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="https://telegram.me/Shineii86"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
-  <a href="https://instagram.com/ikx7.a"><img src="https://img.shields.io/badge/Instagram-C13584?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
-  <a href="mailto:ikx7a@hotmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://github.com/shineii86"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://shouvikdasportfolio.vercel.app/portfolio"><img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://x.com/shouvikdas155"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/></a>
+  <a href="mailto:shouvikdaswork@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
-
----
 
 ## ⭐ Star History
 
 <p align="center">
-  <a href="https://star-history.com/#Shineii86/AniNewsAPI&Date">
-    <img src="https://api.star-history.com/svg?repos=Shineii86/AniNewsAPI&type=Date" alt="Star History Chart" width="100%"/>
+  <a href="https://star-history.com/#Shouvikdasprojects/AnimeNationIndiaAPI&Date">
+    <img src="https://api.star-history.com/svg?repos=Shouvikdasprojects/AnimeNationIndiaAPI&type=Date" alt="Star History Chart" width="100%"/>
   </a>
 </p>
 
@@ -1115,5 +1105,5 @@ Free to use, modify, and distribute — see the [LICENSE](LICENSE) file for deta
 <p align="center">
   <b>Made With ❤️ For The Anime Community</b>
   <br/><br/>
-  <sub>© 2026 Shineii86. All Rights Reserved.</sub>
+  <sub>© 2026 Shouvik. All Rights Reserved.</sub>
 </p>
